@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+#ball {
+    width: 50px;
+    height: 50px;
+    background-color: #000; /* Color coral */
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    animation: bounce 2s infinite alternate;
+}
+#bal {
+    width: 50px;
+    height: 50px;
+    background-color: #000; /* Color coral */
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    animation: bounce 2s infinite alternate;
+}
+#baal {
+    width: 50px;
+    height: 50px;
+    background-color: #000; /* Color coral */
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    animation: bounce 2s infinite alternate;
+}
+
+#ey{
+    border-color: aqua;
+    width: 13px;
+}
+
+
+@keyframes bounce {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: calc(100vh - 100px); /* Mueve el balón al fondo de la ventana */
+    }
+}
